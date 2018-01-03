@@ -329,12 +329,14 @@
 
       
         
-          
-            <p>为Ambari安装Hadoop集群做准备。（虚拟机linux版本为centos6）</p>
-<h2 id="安装Java并配置环境"><a href="#安装Java并配置环境" class="headerlink" title="安装Java并配置环境"></a>安装Java并配置环境</h2><h2 id="配置SSH免密登录"><a href="#配置SSH免密登录" class="headerlink" title="配置SSH免密登录"></a>配置SSH免密登录</h2><h2 id="关闭防火墙"><a href="#关闭防火墙" class="headerlink" title="关闭防火墙"></a>关闭防火墙</h2><h2 id="配置时间同步（ntp或者chrony）"><a href="#配置时间同步（ntp或者chrony）" class="headerlink" title="配置时间同步（ntp或者chrony）"></a>配置时间同步（ntp或者chrony）</h2><h2 id="关闭SELINUX"><a href="#关闭SELINUX" class="headerlink" title="关闭SELINUX"></a>关闭SELINUX</h2><h2 id="关闭Transparent-Huge-Pages"><a href="#关闭Transparent-Huge-Pages" class="headerlink" title="关闭Transparent Huge Pages"></a>关闭Transparent Huge Pages</h2><p>如何关闭看这里<br><a href="http://www.cloudera.com/documentation/enterprise/latest/topics/cdh_admin_performance.html" target="_blank" rel="external">http://www.cloudera.com/documentation/enterprise/latest/topics/cdh_admin_performance.html</a></p>
-<h2 id="配置yum源"><a href="#配置yum源" class="headerlink" title="配置yum源"></a>配置yum源</h2><p>做完这些准备工作基本完成。</p>
-
-          
+          <p>为Ambari安装Hadoop集群做准备。（虚拟机linux版本为centos6）<br>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/01/03/HADOOP集群安装前准备/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -451,36 +453,15 @@
 
       
         
-          
-            <h4 id="小记"><a href="#小记" class="headerlink" title="小记"></a>小记</h4><blockquote>
-<p><a href="https://baike.baidu.com/item/shell/99702?fr=aladdin" target="_blank" rel="external">Shell</a>是命令语言也是程序设计语言，最近在学习Linux，感觉会写点Shell脚本是一个程序员的标配，下面要系统学习一下Shell。</p>
-</blockquote>
-<h2 id="Shell变量"><a href="#Shell变量" class="headerlink" title="Shell变量"></a>Shell变量</h2><ul>
-<li>调用变量：$&#123;变量名&#125; （字符串与数组类似）</li>
-<li>获取变量长度：$&#123;#变量名&#125; （字符串与数组类似）</li>
-<li>字符串的截取与拼接还是非常有用的[#,##,%,%%等8种字符串截取]，个人是参考<a href="http://www.runoob.com/linux/linux-shell-variable.html" target="_blank" rel="external">菜鸟教程</a></li>
-</ul>
-<h2 id="基本运算符"><a href="#基本运算符" class="headerlink" title="基本运算符"></a>基本运算符</h2><ul>
-<li>expr表达式计算工具，格式: `expr $a 运算符 $b` (或者可以使用”$[]”可以进行基本运算,不同之处在于不能有空格。)</li>
-<li>格式:if <a href="若为逻辑运算则需要再加一对[]">逻辑运算</a><pre><code> then
-     ...
- else
-     ...
-fi
-</code></pre></li>
-</ul>
-<h2 id="Shell获取参数"><a href="#Shell获取参数" class="headerlink" title="Shell获取参数"></a>Shell获取参数</h2><ul>
-<li>方法内 $1 2 3 4 5…<em>[若参数个数大于10，则需${10}]</em></li>
-<li><code>$*</code> 与 <code>$@</code> 是有区别的。<ul>
-<li><code>$*</code>:若参数为 1 2 3 ，以一个单字符串显示所有向脚本传递的参数。</li>
-<li><code>$@</code>:与<code>$*</code>相同，但是使用时加引号，并在引号中返回每个参数。</li>
-</ul>
-</li>
-</ul>
-<hr>
-<p>感觉shell语法跟其他编程语言还是差不多的，但书写上还是有些差别。</p>
-
-          
+          <h4 id="小记"><a href="#小记" class="headerlink" title="小记"></a>小记</h4><blockquote>
+<p><a href="https://baike.baidu.com/item/shell/99702?fr=aladdin" target="_blank" rel="external">Shell</a>是命令语言也是程序设计语言，最近在学习Linux，感觉会写点Shell脚本是一个程序员的标配，下面要系统学习一下Shell。<br>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/11/07/Shell/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
