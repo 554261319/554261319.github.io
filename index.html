@@ -685,6 +685,28 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Linux/" itemprop="url" rel="index">
+                    <span itemprop="name">Linux</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -713,15 +735,36 @@
 
       
         
-          <h4 id="小记"><a href="#小记" class="headerlink" title="小记"></a>小记</h4><blockquote>
-<p><a href="https://baike.baidu.com/item/shell/99702?fr=aladdin" target="_blank" rel="external">Shell</a>是命令语言也是程序设计语言，最近在学习Linux，感觉会写点Shell脚本是一个程序员的标配，下面要系统学习一下Shell。<br>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/11/07/Shell/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
+          
+            <h4 id="小记"><a href="#小记" class="headerlink" title="小记"></a>小记</h4><blockquote>
+<p><a href="https://baike.baidu.com/item/shell/99702?fr=aladdin" target="_blank" rel="external">Shell</a>是命令语言也是程序设计语言，最近在学习Linux，感觉会写点Shell脚本是一个程序员的标配，下面要系统学习一下Shell。<br> !– more –&gt;</p>
+</blockquote>
+<h2 id="Shell变量"><a href="#Shell变量" class="headerlink" title="Shell变量"></a>Shell变量</h2><ul>
+<li>调用变量：$&#123;变量名&#125; （字符串与数组类似）</li>
+<li>获取变量长度：$&#123;#变量名&#125; （字符串与数组类似）</li>
+<li>字符串的截取与拼接还是非常有用的[#,##,%,%%等8种字符串截取]，个人是参考<a href="http://www.runoob.com/linux/linux-shell-variable.html" target="_blank" rel="external">菜鸟教程</a></li>
+</ul>
+<h2 id="基本运算符"><a href="#基本运算符" class="headerlink" title="基本运算符"></a>基本运算符</h2><ul>
+<li>expr表达式计算工具，格式: `expr $a 运算符 $b` (或者可以使用”$[]”可以进行基本运算,不同之处在于不能有空格。)</li>
+<li>格式:if <a href="若为逻辑运算则需要再加一对[]">逻辑运算</a><pre><code> then
+     ...
+ else
+     ...
+fi
+</code></pre></li>
+</ul>
+<h2 id="Shell获取参数"><a href="#Shell获取参数" class="headerlink" title="Shell获取参数"></a>Shell获取参数</h2><ul>
+<li>方法内 $1 2 3 4 5…<em>[若参数个数大于10，则需${10}]</em></li>
+<li><code>$*</code> 与 <code>$@</code> 是有区别的。<ul>
+<li><code>$*</code>:若参数为 1 2 3 ，以一个单字符串显示所有向脚本传递的参数。</li>
+<li><code>$@</code>:与<code>$*</code>相同，但是使用时加引号，并在引号中返回每个参数。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p>感觉shell语法跟其他编程语言还是差不多的，但书写上还是有些差别。</p>
+
+          
         
       
     </div>
@@ -811,6 +854,15 @@
               </div>
             
 
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
             
 
             
