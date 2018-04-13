@@ -95,7 +95,7 @@
 <meta property="og:description" content="今天对Java基本类型的转换有了一些新的认知，记录下来。">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://images2015.cnblogs.com/blog/693250/201610/693250-20161027211248046-1432503241.png">
-<meta property="og:updated_time" content="2018-03-08T16:23:40.276Z">
+<meta property="og:updated_time" content="2018-04-13T09:21:54.931Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Java类型转换">
 <meta name="twitter:description" content="今天对Java基本类型的转换有了一些新的认知，记录下来。">
@@ -337,17 +337,16 @@
 
           
             
-			<!--noindex-->
-				<span class="post-comments-count">
-				&nbsp;|&nbsp;
-					<span class="post-meta-item-icon">
-						<i class="fa fa-comment-o"></i>
-						<a href="/2018/03/07/Java类型转换/#comments" itemprop="discussionUrl">
-							<span class="post-comments-count hc-comment-count" data-xid="2018/03/07/Java类型转换/" itemprop="commentsCount"></span>
-						</a>
-					</span>
-				</span>
-			<!--/noindex--> 
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/03/07/Java类型转换/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2018/03/07/Java类型转换/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -486,7 +485,12 @@
 
   
     <div class="comments" id="comments">
-      <div id="hypercomments_widget"></div>
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
     </div>
 
   
@@ -821,34 +825,36 @@
 
   
 
+    
+      <script id="dsq-count-scr" src="https://kitandrew-top.disqus.com/count.js" async></script>
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://kitandrew.top/2018/03/07/Java类型转换/';
+          this.page.identifier = '2018/03/07/Java类型转换/';
+          this.page.title = 'Java类型转换';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://kitandrew-top.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
 
 
 
-	
-
-		<script type="text/javascript">
-		_hcwp = window._hcwp || [];
-
-		_hcwp.push({widget:"Bloggerstream", widget_id: 102248, selector:".hc-comment-count", label: "{\%COUNT%\}" });
-
-		
-		_hcwp.push({widget:"Stream", widget_id: 102248, xid: "2018/03/07/Java类型转换/"});
-		
-
-		(function() {
-		if("HC_LOAD_INIT" in window)return;
-		HC_LOAD_INIT = true;
-		var lang = (navigator.language || navigator.systemLanguage || navigator.userLanguage || "en").substr(0, 2).toLowerCase();
-		var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
-		hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/102248/"+lang+"/widget.js";
-		var s = document.getElementsByTagName("script")[0];
-		s.parentNode.insertBefore(hcc, s.nextSibling);
-		})();
-		</script>
 
 	
 
 
+
+
+
+  
 
 
 
