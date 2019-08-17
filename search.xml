@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title></title>
+    <url>%2F2019%2F08%2F18%2FJava8%20Action%2F</url>
+    <content type="text"><![CDATA[Java8 Action 笔记]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Thymeleaf模版引擎]]></title>
     <url>%2F2018%2F09%2F17%2FThymeleaf%E6%A8%A1%E7%89%88%E5%BC%95%E6%93%8E%2F</url>
     <content type="text"><![CDATA[JSP Velocity Freemaker Thymeleaf 应该是我们在日常生活中最常用的四种模版引擎了，今天我们要说的猪脚是Thymeleaf，为什么呢，spring]]></content>
