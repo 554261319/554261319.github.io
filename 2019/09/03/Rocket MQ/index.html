@@ -75,7 +75,7 @@
 
 
 
-  <meta name="keywords" content="kitandrewlee">
+  <meta name="keywords" content="MQ,">
 
 
 
@@ -86,16 +86,20 @@
 
 
 
-<meta name="description" content="笨蛋自以为聪明，聪明人才知道自己是笨蛋。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="KitAndrew Lee">
-<meta property="og:url" content="http://kitandrew.top/categories/Java/index.html">
+<meta name="description" content="当前公司使用的消息中间件为Rocket MQ，但是说实话，我对Rocket MQ的认知也仅限于调用他们封装好的接口(比如说Sendmessage这种方法名，太常见了吧)，我也看了他们封装了什么东西在里面，讲实话，我没看出他们封装的有多高级，跟网上的差不多吧一些策略之类的东西，我这种写业务的从来不会去深究，只管调用好就好，这大概是初级程序员经常干的事。但是人还是要上进的呀，写一篇笔记，这也算是系统">
+<meta name="keywords" content="MQ">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Rocket MQ">
+<meta property="og:url" content="http://kitandrew.top/2019/09/03/Rocket MQ/index.html">
 <meta property="og:site_name" content="KitAndrew Lee">
-<meta property="og:description" content="笨蛋自以为聪明，聪明人才知道自己是笨蛋。">
+<meta property="og:description" content="当前公司使用的消息中间件为Rocket MQ，但是说实话，我对Rocket MQ的认知也仅限于调用他们封装好的接口(比如说Sendmessage这种方法名，太常见了吧)，我也看了他们封装了什么东西在里面，讲实话，我没看出他们封装的有多高级，跟网上的差不多吧一些策略之类的东西，我这种写业务的从来不会去深究，只管调用好就好，这大概是初级程序员经常干的事。但是人还是要上进的呀，写一篇笔记，这也算是系统">
 <meta property="og:locale" content="default">
+<meta property="og:image" content="http://i.imgur.com/JyZZo8Z.png">
+<meta property="og:updated_time" content="2019-09-05T12:59:01.923Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="KitAndrew Lee">
-<meta name="twitter:description" content="笨蛋自以为聪明，聪明人才知道自己是笨蛋。">
+<meta name="twitter:title" content="Rocket MQ">
+<meta name="twitter:description" content="当前公司使用的消息中间件为Rocket MQ，但是说实话，我对Rocket MQ的认知也仅限于调用他们封装好的接口(比如说Sendmessage这种方法名，太常见了吧)，我也看了他们封装了什么东西在里面，讲实话，我没看出他们封装的有多高级，跟网上的差不多吧一些策略之类的东西，我这种写业务的从来不会去深究，只管调用好就好，这大概是初级程序员经常干的事。但是人还是要上进的呀，写一篇笔记，这也算是系统">
+<meta name="twitter:image" content="http://i.imgur.com/JyZZo8Z.png">
 
 
 
@@ -125,13 +129,13 @@
 
 
 
-  <link rel="canonical" href="http://kitandrew.top/categories/Java/">
+  <link rel="canonical" href="http://kitandrew.top/2019/09/03/Rocket MQ/">
 
 
 
 
 
-  <title>Category: Java | KitAndrew Lee</title>
+  <title>Rocket MQ | KitAndrew Lee</title>
   
 
 
@@ -150,7 +154,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -286,53 +290,251 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block category">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>Java<small>Category</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://kitandrew.top/2019/09/03/Rocket MQ/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="KitAndrew Lee">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/touxiang.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="KitAndrew Lee">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2018/03/07/Java类型转换/" itemprop="url">
-              
-                <span itemprop="name">Java类型转换</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">Rocket MQ</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2018-03-07T19:31:49+08:00" content="2018-03-07">
-          03-07
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-09-03T20:58:26+08:00">
+                2019-09-03
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/中间件/" itemprop="url" rel="index">
+                    <span itemprop="name">中间件</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/09/03/Rocket MQ/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/09/03/Rocket MQ/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <blockquote>
+<p>当前公司使用的消息中间件为Rocket MQ，但是说实话，我对Rocket MQ的认知也仅限于调用他们封装好的接口(比如说Sendmessage这种方法名，太常见了吧)，我也看了他们封装了什么东西在里面，讲实话，我没看出他们封装的有多高级，跟网上的差不多吧一些策略之类的东西，我这种写业务的从来不会去深究，只管调用好就好，这大概是初级程序员经常干的事。但是人还是要上进的呀，写一篇笔记，这也算是系统的学习一下Rocket MQ了。</p>
+</blockquote>
+<a id="more"></a>
+
+<h1 id="Rocket-MQ"><a href="#Rocket-MQ" class="headerlink" title="Rocket MQ"></a>Rocket MQ</h1><h2 id="由什么构成？"><a href="#由什么构成？" class="headerlink" title="由什么构成？"></a>由什么构成？</h2><h3 id="NameServer"><a href="#NameServer" class="headerlink" title="NameServer"></a>NameServer</h3><p>首先从命名上面看，肯定是做命名相关的活，服务治理之类的，有点像zookeeper，没错，其实Rocket MQ最开始就是使用zookeeper的，后来才自己做了实现。</p>
+<ul>
+<li><h4 id="作用："><a href="#作用：" class="headerlink" title="作用："></a>作用：</h4><ul>
+<li>维护Broker的地址列表，维护Broker的存活状态(Broker启动的时候会在NameServer进行注册)。</li>
+<li>维护Topic和Topic对应队列的地址列表，Broker每次发送心跳过来时都会将Topic的信息带过来。</li>
+<li>总结：维护Broker和Topic等信息，通过netty来进行<a href="https://juejin.im/post/5b010591518825673564cb50" target="_blank" rel="noopener">长连接</a>来保持Producer和Consumer跟Broker的通信，与此同时还提供心跳检测、数据更新查询等常规服务。</li>
+</ul>
+</li>
+<li><h4 id="主要实现类："><a href="#主要实现类：" class="headerlink" title="主要实现类："></a>主要实现类：</h4><ul>
+<li>NamesrvStartUp：NameServer启动类</li>
+<li>NamesrcController：NameServer控制类，主要负责NameServer的生命周期(启动、初始化、停止)</li>
+<li>RouteInfoManager：存放Topic队列信息，Broker地址列表等一系列数据结构，并提供对应的数据变更接口。</li>
+<li>DefaultRequestProcessosr：处理Broker发过来的所有消息，封装了对netty包的处理和部分对NameServer存储的数据查询和删除。</li>
+</ul>
+</li>
+<li><h4 id="NameServer启动流程"><a href="#NameServer启动流程" class="headerlink" title="NameServer启动流程"></a>NameServer启动流程</h4></li>
+</ul>
+<p><img src="http://i.imgur.com/JyZZo8Z.png" alt="img"></p>
+<h3 id="Producer"><a href="#Producer" class="headerlink" title="Producer"></a>Producer</h3><p>消息生产者，主要是业务产生消息。</p>
+<ul>
+<li>Producer由用户进行分布式部署，Producer会将消息通过负载均衡(轮询队列Roundbin，每个队列接收平均额消息量)发送到Broker集群，发送低延时，支持快速失败。</li>
+<li>支持发送延迟消息(可以<strong>指定时刻</strong>、<strong>指定延迟间隔</strong>)，指定为消息类型为延迟消息后，该消息发送到broker，需要等待延迟时间过后，才能背Consumer消费。</li>
+<li>可设置MessageQueueSelector来决定消息放到哪个Queue里。</li>
+</ul>
+<h3 id="Broker"><a href="#Broker" class="headerlink" title="Broker"></a>Broker</h3><p>消息中转角色，负责存储消息，转发消息。</p>
+<ul>
+<li>Broker是具体提供业务的服务器，单个Broker节点与所有的NameServer节点保持长连接及心跳，并会定时将Topic信息注册到NameServer，底层的通信、连接都是基于netty所实现的。</li>
+<li>Broker负责消息存储，以Topic为维度支持轻量级的队列，单机可以支撑上万队列规模(除了写demo，估计没人会使用单机模式)支持消息<strong>推拉模型</strong>。</li>
+</ul>
+<h3 id="Consumer"><a href="#Consumer" class="headerlink" title="Consumer"></a>Consumer</h3><p>消息消费者，负责消费消息，后台业务异步消费。</p>
+<ul>
+<li>Push方式，通过长轮询实现，由Consumer维护Treemap，保存所有接收到的消息的列表，并实现类似于时间窗口的算法来做流控；PushConsumer会判断获取但还未处理<strong>消息个数</strong>、<strong>消息总大小</strong>、<strong>Offset的跨度</strong>，任何一个值超过设定的大小就隔一段时间再拉取消息，从而达到流量控制的目的。此外ProcessQueue还可以辅助实现顺序消费的逻辑。push方式推出Consume时，必须<strong>显示调用</strong>shutdown()告知broker记录offset等信息。</li>
+<li>Pull方式，需要自己维护从Broker的队列上读取消息的offset，并存储到本地，从而保障当Consumer挂掉重启之后能狗重新接着源地址消费消息。</li>
+<li>从原理上讲，pull方式应该是不支持broadcast消息方式的，除非Broker通过session获取连接到其中的所有Consumer，并为未消费的consumer保留消息等待消费。</li>
+<li>Consumer只负责消费消息，当消费消息失败的时候，会将消息写回Broker，并设置其Topic为SCHEDULE_TOPIC_XXXX(同样会做落盘处理)。</li>
+</ul>
+<h2 id="关键特性"><a href="#关键特性" class="headerlink" title="关键特性"></a>关键特性</h2><p>尽管Rocket MQ生来就是为了分布式系统所设计的消息中间件，消息的顺序问题，消息的重复消费问题。</p>
+<h3 id="消息有序"><a href="#消息有序" class="headerlink" title="消息有序"></a>消息有序</h3><h4 id="Rocket-MQ是如何保证消息的顺序性呢？"><a href="#Rocket-MQ是如何保证消息的顺序性呢？" class="headerlink" title="Rocket MQ是如何保证消息的顺序性呢？"></a>Rocket MQ是如何保证消息的顺序性呢？</h4><p>在介绍生产的者的时候我这边就介绍了一下，Rocket MQ会通过轮询所有队列的方式来决定消息将被发送到哪个队列(负载均衡策略)。Rocket MQ会通过MessageQueueSelector()所实现的算法来选择同一个队列，默认提供了两种实现：<strong>随机/Hash</strong> ，若你不想使用他提供的算法，你可以根据实际的业务来决定。</p>
+<h4 id="业务如何实现消费有序"><a href="#业务如何实现消费有序" class="headerlink" title="业务如何实现消费有序"></a>业务如何实现消费有序</h4><p>若要实现严格的顺序消费(即全面考虑，网络延迟、数据丢失等方面)，可以实现的方式便是应答 <a href="https://baike.baidu.com/item/ACK" target="_blank" rel="noopener">ACK</a>+顺序在前先发送，也就是：</p>
+<p>保证*<em>生产者—MQServer—消费者  *</em>是一对一的关系</p>
+<p>这样虽然保证了消息的顺序消费，与此同时，也会出现其他的问题：<strong>吞吐量不够</strong>、<strong>更多的异常处理(一但消费端出现问题，将会阻塞整个流程)</strong>        </p>
+<h3 id="消息重复"><a href="#消息重复" class="headerlink" title="消息重复"></a>消息重复</h3><p>Rocket MQ不保证消息不重复，若你的业务需要严格的保证不重复消息，需要在业务端去重。</p>
+<p>消费端处理消息的业务逻辑保持幂等性。</p>
+<p>保证每条消息都有唯一编号且保证消息处理成功，其次去重表的日志显的尤为重要。</p>
 
       
     </div>
+    <div>    
+     
+     
+        <ul class="post-copyright">
+          <li class="post-copyright-author">
+            <strong>本文作者：</strong>
+            KitAndrew Lee
+          </li>
+          <li class="post-copyright-link">
+            <strong>本文链接：</strong>
+            <a href="/2019/09/03/Rocket MQ/" title="Rocket MQ">2019/09/03/Rocket MQ/</a>
+          </li>
+          <li class="post-copyright-license">
+            <strong>版权声明：</strong>
+            本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0 CN</a> 许可协议。转载请注明出处！
+          </li>
+        </ul>
+      
+    </div>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/MQ/" rel="tag"># MQ</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/09/17/Thymeleaf模版引擎/" rel="next" title="Thymeleaf模版引擎">
+                <i class="fa fa-chevron-left"></i> Thymeleaf模版引擎
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -340,6 +542,20 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -360,8 +576,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -457,6 +682,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Rocket-MQ"><span class="nav-number">1.</span> <span class="nav-text">Rocket MQ</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#由什么构成？"><span class="nav-number">1.1.</span> <span class="nav-text">由什么构成？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#NameServer"><span class="nav-number">1.1.1.</span> <span class="nav-text">NameServer</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#作用："><span class="nav-number">1.1.1.1.</span> <span class="nav-text">作用：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#主要实现类："><span class="nav-number">1.1.1.2.</span> <span class="nav-text">主要实现类：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#NameServer启动流程"><span class="nav-number">1.1.1.3.</span> <span class="nav-text">NameServer启动流程</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Producer"><span class="nav-number">1.1.2.</span> <span class="nav-text">Producer</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Broker"><span class="nav-number">1.1.3.</span> <span class="nav-text">Broker</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Consumer"><span class="nav-number">1.1.4.</span> <span class="nav-text">Consumer</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关键特性"><span class="nav-number">1.2.</span> <span class="nav-text">关键特性</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#消息有序"><span class="nav-number">1.2.1.</span> <span class="nav-text">消息有序</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Rocket-MQ是如何保证消息的顺序性呢？"><span class="nav-number">1.2.1.1.</span> <span class="nav-text">Rocket MQ是如何保证消息的顺序性呢？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#业务如何实现消费有序"><span class="nav-number">1.2.1.2.</span> <span class="nav-text">业务如何实现消费有序</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#消息重复"><span class="nav-number">1.2.2.</span> <span class="nav-text">消息重复</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -625,6 +866,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
 
   
 
@@ -642,6 +887,18 @@
       <script id="dsq-count-scr" src="https://kitandrew-top.disqus.com/count.js" async></script>
     
 
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://kitandrew.top/2019/09/03/Rocket MQ/';
+          this.page.identifier = '2019/09/03/Rocket MQ/';
+          this.page.title = 'Rocket MQ';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://kitandrew-top.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
     
 
   
